@@ -1,0 +1,9 @@
+.darkmode {
+    background-color: black;
+    color: white;
+}
+
+.myMessage {
+    background-color: blue;
+    padding: 10%;
+}

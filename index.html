@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer ></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+</head>
+ <link rel="stylesheet" href="style.css">
+<body>
+    <div class="myMessage" >
+       <button class="theMessageButton">Show message</button>
+       <input type="text" class="theInputValue">
+    </div>
+
+    <hr>
+    <div>
+        <h2> Fruits List</h2>
+          <ul class="fruits" >
+        </ul>
+
+         </div>
+    </div>
+    <hr>
+    <h2>Message widget</h2>
+    <div x-data="{ title: 'Hello Njabulo'}">
+        <p x-text="title"></p>
+        <button @click="title='Alpine Rocks! and Works'">click me</button>
+    </div>
+    
+</body>
+</html>
